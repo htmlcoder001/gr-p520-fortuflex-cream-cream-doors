@@ -230,8 +230,8 @@ form {
 }
 
 #form .discount {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 36px;
+    line-height: 40px;
     color: #d84949;
     margin-top: 12px;
 }
@@ -255,6 +255,7 @@ form {
     color: #c5c5c5;
     font-weight: 600;
     line-height: 16px;
+    margin-bottom: 24px;
 }
 
 #form #price {
