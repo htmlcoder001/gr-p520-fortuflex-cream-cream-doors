@@ -26,25 +26,25 @@ function openDoor(o) {
     }, 3500),
     doorSales.forEach(function (o) {
       door1.classList.contains("open")
-        ? ((doorSale1.innerHTML = "50%"),
+        ? ((doorSale1.innerHTML = "1+1"),
           (doorSale1.style.left = "32px"),
-          (doorSale2.innerHTML = "10%"),
+          (doorSale2.innerHTML = "20%"),
           (doorSale2.style.left = "30px"),
-          (doorSale3.innerHTML = "25%"),
+          (doorSale3.innerHTML = "30%"),
           (doorSale3.style.left = "32px"))
         : door2.classList.contains("open")
-        ? ((doorSale2.innerHTML = "50%"),
+        ? ((doorSale2.innerHTML = "1+1"),
           (doorSale2.style.left = "32px"),
-          (doorSale1.innerHTML = "25%"),
+          (doorSale1.innerHTML = "30%"),
           (doorSale1.style.left = "32px"),
-          (doorSale3.innerHTML = "10%"),
+          (doorSale3.innerHTML = "20%"),
           (doorSale3.style.left = "30px"))
         : door3.classList.contains("open") &&
-          ((doorSale1.innerHTML = "10%"),
+          ((doorSale1.innerHTML = "20%"),
           (doorSale1.style.left = "30px"),
-          (doorSale3.innerHTML = "50%"),
+          (doorSale3.innerHTML = "1+1"),
           (doorSale3.style.left = "32px"),
-          (doorSale2.innerHTML = "25%"),
+          (doorSale2.innerHTML = "30%"),
           (doorSale2.style.left = "32px"));
     });
   for (let o = 0; o < doors.length; o++)
